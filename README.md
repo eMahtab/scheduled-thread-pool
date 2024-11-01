@@ -65,3 +65,22 @@ public class Main {
 }
 
 ```
+
+### Execution Output
+```
+System status checker started.
+Checking system status at 1730460894421
+System status: OK
+Checking system status at 1730460904418
+ALERT: System health warning!
+Checking system status at 1730460914419
+System status: OK
+Checking system status at 1730460924418
+System status: OK
+Checking system status at 1730460934418
+ALERT: System health warning!
+Checking system status at 1730460944418
+System status: OK
+Stopping system status checker...
+System status checker stopped successfully.
+```
