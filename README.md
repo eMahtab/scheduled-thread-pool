@@ -1,5 +1,9 @@
 # Scheduled Thread Pool
 
+Below example uses ScheduledExecutorService with a scheduled thread pool. We create a scheduler that performs a regular task—such as checking for system status updates—every 10 seconds.
+
+This approach is commonly used in applications to execute periodic tasks, like monitoring servers, performing database cleanups, or sending notifications.
+
 ```java
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
