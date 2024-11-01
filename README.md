@@ -22,7 +22,7 @@ class SystemStatusChecker {
 
         // Simulate system health check logic
         double healthCheckOutcome = Math.random();
-        if (healthCheckOutcome < 0.1) {
+        if (healthCheckOutcome < 0.5) {
             System.out.println("ALERT: System health warning!");
         } else {
             System.out.println("System status: OK");
